@@ -1,0 +1,42 @@
+* {
+    font-family: "Tahoma";
+    box-sizing: border-box;
+}
+
+footer {
+    height: 50px;
+    text-align: center;
+}
+
+header {
+    padding: 15px;
+}
+
+header .logo img {
+    float: left;
+    width: 30%;
+    width: 100px;
+    background-color: #48484A;
+}
+
+header .search-box {
+    padding: 25px 0px;
+    float: left;
+    width: 70%;
+}
+
+header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.search-box {
+    margin: 15px;
+}
+
+.search-box input {
+    width: 50%;
+    height: 30px;
+    border-radius: 5px;
+}
